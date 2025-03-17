@@ -1,0 +1,107 @@
+{
+  "BOT": {
+    "username": "John", 
+    "password": "",
+    "type": "offline"
+  },
+
+  "server": {
+    "ip": "Game_Space.aternos.me", 
+    "port": 18532,   
+    "version": "1.12.2",
+    "timeout": 120000,
+    "reconnectDelay": 10000,
+    "maxRetries": 5
+  },
+
+  "position": {
+    "enabled": true,
+    "x": 406,
+    "y": 43,
+    "z": -358
+  },
+
+  "utils": {
+    "auto_auth": {
+      "enabled": true,
+      "password": "KingGames"
+    },
+
+    "anti_afk": {
+      "enabled": true,
+      "sneak": false
+    },
+
+    "chat": {
+      "enabled": true,
+      "repeat": true,
+      "repeat_delay": 120,
+
+      "messages": [
+        "Anyone got food?", "brb", "gg", "lol", "nice base!", "who needs iron?",
+        "lag?", "how do I craft a shield?", "wait what just happened?", "creeper noooo!",
+        "anyone trading?", "how do I tame a horse?", "where's my house...", "rip my stuff",
+        "lol I fell in lava", "help I'm stuck", "what version is this server?", "anyone got a good seed?",
+        "I'm lost", "oh nice armor!", "wait how do I make a map?", "bruh", "anyone got diamonds?",
+        "what's the best y level for mining?", "this cave is huge", "yo this village is OP",
+        "nether portal coords?", "I need blaze rods", "rip my tools", "just got full netherite!",
+        "I found an ancient city!", "warden is scary af", "who needs food?", "I need wood",
+        "brb getting water", "how do I set home?", "who's online?", "anyone got mending?",
+        "oh no phantoms!", "why is it always night?", "bro my pickaxe broke", "who built this?",
+        "this biome is sick!", "noooo I died", "how do I get back to spawn?", "I need wool",
+        "who stole my stuff?", "bro stop griefing!", "I need a dog", "is this a modded server?",
+        "where do I find netherite?", "what's the server IP?", "I got an elytra!", "fireworks pls",
+        "how do I fly?", "someone help me in the end", "I need a shield", "ender dragon fight?",
+        "I found a stronghold!", "yo who's got potions?", "this cave is deep!", "who's base is this?",
+        "why is there a random dirt tower?", "who needs xp?", "wait, no PvP?", "stop hitting me!",
+        "I'm in the end", "is keep inventory on?", "no way I just clutched!", "water bucket save!",
+        "does fortune work on iron?", "best enchantments?", "where's the nether fortress?",
+        "I got lost in the nether", "coords?", "I hate gravel", "who's farming?", "anyone selling?",
+        "how do I make a lead?", "can I join a team?", "who owns this village?", "free loot here!",
+        "anyone got emeralds?", "trading villagers?", "who's got the end portal?", "when's the reset?",
+        "server restart soon?", "why is chat so quiet?", "big base project!", "I need obsidian",
+        "speedrun anyone?", "wait what's that sound?", "who's building at spawn?", "does silk touch work?",
+        "what does fortune do?", "I found a spawner!", "I need slimeballs", "I found a lush cave!",
+        "who's got an XP farm?", "anyone got a nether hub?", "I got 1 HP left!", "creeper behind you!",
+        "who's got a beacon?", "I lost my elytra!", "I fell in the void :(", "help at spawn!",
+        "I'm farming wood", "someone sleep!", "how do I make a conduit?", "who needs cobblestone?",
+        "I just found a pink sheep!", "how rare is this?", "does anyone sell totems?", "is this hardcore?",
+        "I'm stuck in the nether!", "who griefed this?", "trapped in a ravine", "does looting work on fish?",
+        "I need string", "who's got a trident?", "who's got the dragon egg?", "anyone selling shulkers?",
+        "where are the mobs?", "this texture pack is weird", "I'm making a farm", "can I get op?",
+        "what plugins are on this server?", "is PvP allowed?", "I need more torches", "someone teleport me",
+        "I got an axolotl!", "this biome is cursed", "I just mined into a mineshaft!", "nether highway anyone?",
+        "what's the best food?", "is this an SMP?", "oh my god a zombie villager!", "I need a name tag",
+        "I found a dungeon!", "who has netherite?", "this mountain is huge!", "why is it raining again?",
+        "who's got the best base?", "yo I need blaze powder", "who built this tower?", "yo I need backup!",
+        "this place is scary", "I'm out of arrows", "who wants a house tour?", "this cave is endless!",
+        "I need help mining", "someone bring beds!", "how do I make fireworks?", "I'm stuck in a hole",
+        "I just found a fossil!", "where's the best place to build?", "can I live here?", "who's got banners?",
+        "is this a realm?", "I need a fishing rod", "does anyone have a farm?", "this lag is killing me",
+        "how do I get out of the nether?", "who's got a map?", "can I have some coal?", "where's the exit?",
+        "bro who stole my bed?", "I need leather", "where can I build?", "I'm making a shop!", "is there a spawn town?",
+        "who wants to team up?", "anyone got leads?", "I'm making a minecart system!", "I need a diamond pick",
+        "where do I find axolotls?", "I need to repair my gear", "why is my villager not working?",
+        "can I have a pet parrot?", "how do I cure a zombie villager?", "yo the warden is OP!", "someone TP me!",
+        "how do I get netherite fast?", "does anyone have scaffolding?", "I need glowstone!", "I'm out of arrows again",
+        "can I use shaders here?", "yo I found an igloo!", "who's got a gold farm?", "can we do an event?",
+        "what's the best armor?", "I'm farming XP", "I need turtle eggs", "this world is beautiful!",
+        "yo let's do a raid!", "how do I start a raid?", "anyone got a smithing table?", "where's the ocean?",
+        "I need a boat!", "where's a good mining spot?", "this mountain is insane!", "I'm making a mob grinder",
+        "yo, should I make a shop?", "who's got the best trades?", "how do I breed villagers?", "I need wheat!",
+        "why is this villager not restocking?", "anyone want a tour?", "I'm lost in a cave!", "who has the dragon egg?",
+        "let's fight the wither!", "I'm running out of food", "where's the trading hall?", "someone help me build",
+        "I need an anvil!", "who's got diamonds?", "who wants to duel?", "I need sand!", "how do I grow mushrooms?",
+        "yo I need kelp!", "what's the best enchant for a sword?", "I found a bastion!", "who's the richest player?",
+        "this place is insane!", "yo, who wants to play?", "I'm AFK for a bit", "who's got honey?", "I need shears!",
+        "where's the best loot?", "I'm making a secret base!", "who's got extra wood?", "I just got a music disc!",
+        "who wants to explore?", "let's find a jungle!", "yo I'm making a rollercoaster!", "this seed is amazing!",
+        "can I borrow some iron?", "yo who wants to do a challenge?", "anyone got a compass?", "where's the nether hub?"
+      ]
+    },
+
+    "chat_log": true,
+    "auto_reconnect": true,
+    "reconnect_delay": 5000
+  }
+}
